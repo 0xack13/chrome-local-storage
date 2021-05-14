@@ -1,0 +1,11 @@
+{
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "name": "Local Storage App",
+    "description": "Manage storage in Chrome extension",
+    "permissions": ["storage"],
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "options_page": "options.html"
+}
